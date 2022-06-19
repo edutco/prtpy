@@ -41,6 +41,9 @@ class partitioning:
     from prtpy.partitioning.ckk import ckk
     from prtpy.partitioning.rnp import rnp
     from prtpy.partitioning.irnp import irnp
+    
+    #Edut Cohen modules
+    from prtpy.partitioning.approximation_schemes_AAWY import mainAlgorithm as AAWY_approximation_scheme
 
 class packing:
     from prtpy.packing.first_fit import online as first_fit, decreasing as first_fit_decreasing
